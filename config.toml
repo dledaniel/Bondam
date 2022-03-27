@@ -116,7 +116,7 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
-home = "Home"
+home = "Hjem"
 # copyright
 copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
 
@@ -126,54 +126,61 @@ copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefi
 
 # main menu
 [[Languages.en.menu.main]]
-name = "About"
+name = "Om mig"
 url = "about/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "course"
+name = "Tanker"
 url = "course/"
 weight = 2
 
 [[Languages.en.menu.main]]
 weight = 3
-name = "Pages"
+name = "Politik"
 hasChildren = true
 
   [[Languages.en.menu.main]]
-  parent = "Pages"
+  parent = "Politik"
   name = "teacher"
   url = "teacher/"
 
   [[Languages.en.menu.main]]
-  parent = "Pages"
+  parent = "Politik"
   name = "notice"
   url = "notice/"
 
   [[Languages.en.menu.main]]
-  parent = "Pages"
+  parent = "Politik"
   name = "event"
   url = "event/"
 
   [[Languages.en.menu.main]]
-  parent = "Pages"
+  parent = "Politik"
   name = "scholarship"
   url = "scholarship/"
 
   [[Languages.en.menu.main]]
-  parent = "Pages"
+  parent = "Politik"
   name = "research"
   url = "research/"
   
 [[Languages.en.menu.main]]
-name = "blog"
+name = "Politik"
 url = "blog/"
 weight = 4
-  
+
 [[Languages.en.menu.main]]
-name = "Contact"
+name = "Presse"
 url = "contact/"
 weight = 5
+  
+[[Languages.en.menu.main]]
+name = "Kontakt"
+url = "contact/"
+weight = 6
+
+
 
 
 # footer menu
