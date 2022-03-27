@@ -9,7 +9,7 @@ features = ["blog", "company", "responsive", "seo-friendly"]
 min_version = "0.54.0"
 
 [author]
-  name = "Themefisher"
+  name = "Daniel Le"
   homepage = "https://themefisher.com/"
 
 [original]
