@@ -1,5 +1,5 @@
 ---
-title: "Photography"
+title: "Socialdemokraterne skal droppe glæden over demagogisk topstyring"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
@@ -19,7 +19,7 @@ weekly : "03 hours"
 # course fee
 fee : "From: $699"
 # apply url
-apply_url : "#"
+apply_url : "https://www.altinget.dk/artikel/klaus-bondam-udvalgsstyre-ville-sikre-s-naesten-enevaeldig-magt-i-koebenhavn"
 # type
 type: "course"
 ---

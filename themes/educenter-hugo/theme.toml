@@ -10,8 +10,4 @@ min_version = "0.54.0"
 
 [author]
   name = "Daniel Le"
-  homepage = "https://themefisher.com/"
 
-[original]
-  name = "Educenter"
-  homepage = "https://themefisher.com/products/education-template/"
