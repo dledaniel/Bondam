@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/educenter/examplesite/"
-title = "Educenter | hugo education template"
+baseURL = "/"
+title = "Klaus Bondam | Folketingskandidat"
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
@@ -9,7 +9,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ['fr'] # desable language from here
 
 
 ############################# Plugins ##############################
@@ -45,27 +45,27 @@ link = "plugins/google-map/gmap.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Klaus Bondam er Folketingskandidat i Københavns Kommune. Desuden er han skuespiller, lydbogsindlæser, radikal politiker og tidligere borgmester i København for først Teknik- og Miljøforvaltningen og senere Beskæftigelses- og Integrationsområdet samt medlem af Økonomiudvalget. Han har efterfølgende været Institutleder ved Det Danske Kulturinstitut i Bruxelles."
+author = "Daniel Le"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@educenter.com"
+address = "Rømersgade 5-7, DK-1362 København K"
+mobile = "+45 33 32 31 21"
+email = "klaus@bondam.dk"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
-top_header = true
+top_header = false
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -74,13 +74,13 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "55.683128941658964"
+map_longitude = "12.567592713471424"
 map_marker = "images/marker.png" # marker size 37*55 px
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
   
 ############################# social site ########################

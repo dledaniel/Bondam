@@ -16,10 +16,10 @@
   &::before {
     position: absolute;
     content: "";
-    height: 80%;
+    height: 100%;
     width: 100%;
     left: 0;
-    bottom: 10%;
+    bottom: 0%;
     z-index: -1;
     transition: transform .2s ease-in-out;
     transform-origin: top;
