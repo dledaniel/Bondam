@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1-bondam.jpg"
+  bg_image : "images/banner/banner-2-bondam.png"
   slider_item:
     # slider item loop
     - title : "Klaus Bondam"
