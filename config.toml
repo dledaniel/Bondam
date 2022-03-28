@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 defaultContentLanguage = "da"
-title = "Klaus Bondam | Folketingskandidat"
+title = "Klaus Bondam"
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
@@ -131,7 +131,7 @@ hasChildren = true
   [[Languages.da.menu.main]]
   parent = "Politik"
   name = "Mærkesager"
-  url = "research/"
+  url = "politics/"
 
   [[Languages.da.menu.main]]
   parent = "Politik"

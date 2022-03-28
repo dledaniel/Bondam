@@ -19,8 +19,8 @@
 - id: contact_us
   translation: Kontakt mig
 
-- id: latest_article
-  translation: Senste artikel
+- id: latest_articles
+  translation: Seneste artikler
 
 - id: categories
   translation: Kategorier
@@ -72,6 +72,9 @@
 
 - id: Menu
   translation: Menu
+
+- id: Politics
+  translation: Mærkesager
 
 - id: more_event
   translation: Flere Events
