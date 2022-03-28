@@ -42,7 +42,7 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = ""
+logo = "/images/rsz_1rsz_1hvidt-b_magenta-cirkel.png"
 # Meta data
 description = "Klaus Bondam er Folketingskandidat i Københavns Kommune. Desuden er han skuespiller, lydbogsindlæser, radikal politiker og tidligere borgmester i København for først Teknik- og Miljøforvaltningen og senere Beskæftigelses- og Integrationsområdet samt medlem af Økonomiudvalget. Han har efterfølgende været Institutleder ved Det Danske Kulturinstitut i Bruxelles."
 author = "Daniel Le"
