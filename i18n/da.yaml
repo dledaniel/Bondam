@@ -11,7 +11,7 @@
   translation: Kontaktinformation
 
 - id: subscribe_newsletter
-  translation: Abonnér til nyhedsbrevet
+  translation: Tilmeld dig nyhedsbrevet
 
 - id: subscribe
   translation: Abonnér
@@ -21,6 +21,9 @@
 
 - id: latest_articles
   translation: Seneste artikler
+
+- id: articles
+  translation: Artikler
 
 - id: categories
   translation: Kategorier
