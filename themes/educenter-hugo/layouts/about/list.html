@@ -44,7 +44,7 @@
 <!-- /success story -->
 
 <!-- teacher -->
-{{ if $data.homepage.blog.enable }}
+<!-- {{ if $data.homepage.blog.enable }}
 <section class="section">
   <div class="container">
     <div class="row">
@@ -52,9 +52,9 @@
         <h2 class="section-title">{{ i18n "our_teachers" }}</h2>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center"> -->
       <!-- teacher -->
-      {{ range first 3 (where site.RegularPages "Type" "teacher")}}
+      <!-- {{ range first 3 (where site.RegularPages "Type" "teacher")}}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         {{ .Render "teacher" }}
       </div>
@@ -62,7 +62,7 @@
     </div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- /teacher -->
 
 {{ end }}

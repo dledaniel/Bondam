@@ -1,0 +1,110 @@
+- id: read_more
+  translation: Læs Mere
+
+- id: contact_form
+  translation: Kontaktformular
+
+- id: send
+  translation: Send
+
+- id: contact_info
+  translation: Kontaktinformation
+
+- id: subscribe_newsletter
+  translation: Abonnér til nyhedsbrevet
+
+- id: subscribe
+  translation: Abonnér
+
+- id: contact_us
+  translation: Kontakt mig
+
+- id: latest_article
+  translation: Senste artikel
+
+- id: categories
+  translation: Kategorier
+
+- id: tags
+  translation: Tags
+
+- id: see_all
+  translation: Se alle
+
+- id: apply_now
+  translation: Ansøg nu
+
+- id: posted_by
+  translation: Slået op af
+
+- id: date
+  translation: Dato
+
+- id: time
+  translation: tid
+
+- id: category
+  translation: Kategori
+
+- id: related_course
+  translation: Relateret
+
+- id: duration
+  translation: vargihed
+
+- id: weekly
+  translation: ugently
+
+- id: fee
+  translation: pris
+
+- id: teacher
+  translation: lærer
+
+- id: location
+  translation: lokation
+
+- id: entry_fee
+  translation: adgangspris
+
+- id: event_speaker
+  translation: Foredragsholder
+
+- id: more_event
+  translation: Flere Events
+
+- id: join
+  translation: Tilmeld
+  
+- id: enter_email
+  translation: Din Email
+
+- id: company
+  translation: virksomhed
+
+- id: links
+  translation: links
+
+- id: courses
+  translation: Kurser
+
+- id: new_notice
+  translation: ny meddelelse
+
+- id: call
+  translation: ring
+
+- id: email
+  translation: email
+
+- id: all
+  translation: Alle
+
+- id: interest
+  translation: Interesser
+
+- id: our_teachers
+  translation: Vores lærere
+
+- id: download
+  translation: Download

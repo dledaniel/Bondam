@@ -1,5 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
+defaultContentLanguage = "da"
 title = "Klaus Bondam | Folketingskandidat"
 theme = "educenter-hugo"
 # post pagination
@@ -9,7 +10,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = ['fr'] # desable language from here
+disableLanguages = ['fr', 'en'] # desable language from here
 
 
 ############################# Plugins ##############################
@@ -109,16 +110,107 @@ title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "#"
 
+################################### Danish language #####################################
+[Languages.da]
+languageName = "Da"
+languageCode = "da-da"
+contentDir = "content/danish"
+weight = 1
+home = "Hjem"
+
+
+
+################### English navigation ####################
+
+# main menu
+[[Languages.da.menu.main]]
+name = "Om mig"
+url = "about/"
+weight = 1
+
+[[Languages.da.menu.main]]
+name = "Tanker"
+url = "course/"
+weight = 2
+
+[[Languages.da.menu.main]]
+weight = 3
+name = "Politik"
+hasChildren = true
+
+  [[Languages.da.menu.main]]
+  parent = "Politik"
+  name = "teacher"
+  url = "teacher/"
+
+  [[Languages.da.menu.main]]
+  parent = "Politik"
+  name = "notice"
+  url = "notice/"
+
+  [[Languages.da.menu.main]]
+  parent = "Politik"
+  name = "event"
+  url = "event/"
+
+  [[Languages.da.menu.main]]
+  parent = "Politik"
+  name = "scholarship"
+  url = "scholarship/"
+
+  [[Languages.da.menu.main]]
+  parent = "Politik"
+  name = "research"
+  url = "research/"
+  
+[[Languages.da.menu.main]]
+name = "Politik"
+url = "blog/"
+weight = 4
+
+[[Languages.da.menu.main]]
+name = "Presse"
+url = "contact/"
+weight = 5
+  
+[[Languages.da.menu.main]]
+name = "Kontakt"
+url = "contact/"
+weight = 6
+
+
+
+
+# footer menu
+
+[[Languages.da.menu.footer]]
+name = "teacher"
+url = "teacher/"
+
+[[Languages.da.menu.footer]]
+name = "notice"
+url = "notice/"
+
+[[Languages.da.menu.footer]]
+name = "event"
+url = "event/"
+
+[[Languages.da.menu.footer]]
+name = "scholarship"
+url = "scholarship/"
+
+[[Languages.da.menu.footer]]
+name = "research"
+url = "research/"
+
 
 ################################### English language #####################################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
-home = "Hjem"
-# copyright
-copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
+weight = 2
+home = "Home"
 
 
 
@@ -126,18 +218,18 @@ copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefi
 
 # main menu
 [[Languages.en.menu.main]]
-name = "Om mig"
+name = "About me"
 url = "about/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Tanker"
+name = "Thoughts"
 url = "course/"
 weight = 2
 
 [[Languages.en.menu.main]]
 weight = 3
-name = "Politik"
+name = "Politics"
 hasChildren = true
 
   [[Languages.en.menu.main]]
@@ -212,7 +304,7 @@ url = "research/"
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
+weight = 3
 home = "Accueil"
 # copyright
 copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"

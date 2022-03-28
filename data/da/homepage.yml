@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-2-bondam.png"
+  bg_image : "images/banner/banner-3-bondam.png"
   slider_item:
     # slider item loop
     - title : "Klaus Bondam"
@@ -11,7 +11,7 @@ slider:
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Contact"
+        label : "Kontakt"
         link : "contact/"
 
     # slider item loop
@@ -79,12 +79,12 @@ about:
    "
   button:
     enable : true
-    label : "Read More"
+    label : "Læs mere"
     link : "about/"
 
 
 ############################# Course ################################
-course:
+article:
   enable : true
   title : "Artikler"
   # course item comes from "content/**/course" folder.
@@ -96,7 +96,7 @@ cta:
   title : "Bliv en del af kampagnen"
   button:
     enable : true
-    label : "Join"
+    label : "Vær med"
     link : "contact/"
 
 
@@ -123,7 +123,7 @@ event:
   
 ########################### funfacts ############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # funfact item loop
     - name : "TEACHERS"
@@ -148,5 +148,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "Latest news"
+  title : "Seneste nyt"
   # blog item comes from "content/**/blog" folder.
