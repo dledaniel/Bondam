@@ -6,11 +6,18 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-lg-6">
         {{ with .Params.image }}
         <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
         {{ end }}
-        {{ .Content }}
+      </div>
+      <div class="col-lg-6">
+        <h2 class="mb-0 text-nowrap mr-3" style="padding-bottom: 1rem;">{{ .Params.title }}</h2>
+        <p class="card-text mb-6">{{ .Params.about }}<p>
+        <p class="card-text mb-6">{{ .Params.about_more }}<p>
+      </div>
+      <div class="col-md-12">
+        {{ .Content}}
       </div>
     </div>
   </div>

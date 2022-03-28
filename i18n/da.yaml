@@ -70,6 +70,9 @@
 - id: event_speaker
   translation: Foredragsholder
 
+- id: Menu
+  translation: Menu
+
 - id: more_event
   translation: Flere Events
 

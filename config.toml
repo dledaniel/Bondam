@@ -44,7 +44,7 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = ""
 # Meta data
 description = "Klaus Bondam er Folketingskandidat i Københavns Kommune. Desuden er han skuespiller, lydbogsindlæser, radikal politiker og tidligere borgmester i København for først Teknik- og Miljøforvaltningen og senere Beskæftigelses- og Integrationsområdet samt medlem af Økonomiudvalget. Han har efterfølgende været Institutleder ved Det Danske Kulturinstitut i Bruxelles."
 author = "Daniel Le"
@@ -57,7 +57,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
-top_header = false
+top_header = true
 
 # Preloader
 [params.preloader]
@@ -87,28 +87,23 @@ expire_days = 2
 ############################# social site ########################
 [[params.social]]
 title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-facebook"
+link = "https://www.facebook.com/BxBondam"
 
 [[params.social]]
 title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-twitter-alt"
+link = "https://twitter.com/KlausBondam"
 
 [[params.social]]
 title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-instagram" 
+link = "https://www.instagram.com/klausbondam/?hl=da"
 
 [[params.social]]
 title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-linkedin"
+link = "https://dk.linkedin.com/in/klausbondam"
 
 ################################### Danish language #####################################
 [Languages.da]
@@ -120,7 +115,7 @@ home = "Hjem"
 
 
 
-################### English navigation ####################
+################### Danish navigation ####################
 
 # main menu
 [[Languages.da.menu.main]]
@@ -129,44 +124,29 @@ url = "about/"
 weight = 1
 
 [[Languages.da.menu.main]]
-name = "Tanker"
-url = "course/"
-weight = 2
-
-[[Languages.da.menu.main]]
-weight = 3
 name = "Politik"
+weight = 2
 hasChildren = true
 
   [[Languages.da.menu.main]]
   parent = "Politik"
-  name = "teacher"
-  url = "teacher/"
-
-  [[Languages.da.menu.main]]
-  parent = "Politik"
-  name = "notice"
-  url = "notice/"
-
-  [[Languages.da.menu.main]]
-  parent = "Politik"
-  name = "event"
-  url = "event/"
-
-  [[Languages.da.menu.main]]
-  parent = "Politik"
-  name = "scholarship"
-  url = "scholarship/"
-
-  [[Languages.da.menu.main]]
-  parent = "Politik"
-  name = "research"
+  name = "Mærkesager"
   url = "research/"
+
+  [[Languages.da.menu.main]]
+  parent = "Politik"
+  name = "Debat"
+  url = "article/"
   
 [[Languages.da.menu.main]]
 name = "Politik"
 url = "blog/"
+weight = 3
+
+[[Languages.da.menu.main]]
+name = "Vær med"
 weight = 4
+hasChildren = true
 
 [[Languages.da.menu.main]]
 name = "Presse"

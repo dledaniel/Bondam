@@ -93,7 +93,7 @@ article:
 cta:
   enable : true
   subtitle : ""
-  title : "Bliv en del af kampagnen"
+  title : "Hjælp mig med at komme i Folketinget"
   button:
     enable : true
     label : "Vær med"
@@ -103,7 +103,7 @@ cta:
 ######################## Success story #############################
 success_story:
   enable : true
-  bg_image : "images/backgrounds/success-story.jpg"
+  bg_image : "images/backgrounds/pexels-marija-rusaka-11185751.jpg"
   title : "Mine visioner"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
             
@@ -111,7 +111,7 @@ success_story:
   ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
   # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  video_link : "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 
 ############################# event ################################
@@ -147,6 +147,6 @@ funfacts:
 
 ############################# blog ################################
 blog:
-  enable : true
+  enable : false
   title : "Seneste nyt"
   # blog item comes from "content/**/blog" folder.
