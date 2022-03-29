@@ -1,5 +1,5 @@
 ---
-title: "Our Courses"
+title: "Arrangementer"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/pexels-pixabay-415722.jpg"

@@ -3,11 +3,11 @@ title: "Mærkesag 1"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/pexels-pixabay-415722.jpg"
 # meta description
 description : "Test beskrivelse"
 # Research image
-image: "images/research/research-1.jpg"
+image: "images/politics/research-1.jpg"
 # type
 type: "politic"
 ---
