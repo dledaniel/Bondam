@@ -138,3 +138,8 @@ blog:
   enable : false
   title : "Seneste nyt"
   # blog item comes from "content/**/blog" folder.
+
+support:
+  enable : true
+  title : "Støt kampagnen"
+  # blog item comes from "content/**/blog" folder.
