@@ -46,7 +46,8 @@ h2, .h2 {
     h2, .h2 {
       font-size: 30px; } }
 h3, .h3 {
-  font-size: 25px; }
+  font-size: 25px;
+  color: #EC008C; }
   @media (max-width: 575px) {
     h3, .h3 {
       font-size: 20px; } }
@@ -107,7 +108,7 @@ h6, .h6 {
 
 .btn-primary {
   color: #fff;
-  background-color: #003974; }
+  background-color: #EC008C; }
   .btn-primary::before {
     background-color: #fff; }
   .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary.active {

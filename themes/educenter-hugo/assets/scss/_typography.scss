@@ -50,6 +50,7 @@ h3, .h3{
   @include mobile {
     font-size: 20px;
   }
+  color: $accent-color;
 }
 
 h4, .h4{
