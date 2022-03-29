@@ -1,6 +1,6 @@
 ---
 title: "Kontakt"
-draft: false
+draft: true
 # page title background image
 bg_image: "images/backgrounds/pexels-pixabay-415722.png"
 # meta description

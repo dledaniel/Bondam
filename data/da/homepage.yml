@@ -18,26 +18,37 @@ slider:
 banner_feature:
   enable : true
   image : "images/banner/banner-feature-bondam.png"
+
   feature_item:
     # feature item loop
     - name : "Mærkesag 1"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
+      button:
+        enable : true
+        label : "Læs mere"
+        link : "politics/politic-1"
+
     # feature item loop
     - name : "Mærkesag 2"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+      button:
+        enable : true
+        label : "Læs mere"
+        link : "politics/politic-2"
 
     # feature item loop
     - name : "Mærkesag 3"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
-    # feature item loop
-    - name : "Mærkesag 4"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      button:
+        enable : true
+        label : "Læs mere"
+        link : "politics/politic-3"
 
 
 ############################## about ##################################

@@ -250,7 +250,7 @@ a h4:hover {
   background: #f8f8f8; }
 
 .text-primary {
-  color: #003974 !important; }
+  color: #EC008C !important; }
 
 .text-color {
   color: #5c5c77; }

@@ -2,7 +2,7 @@
 title: "Om Mig"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/pexels-marija-rusaka-11185751.jpg"
+bg_image: "images/backgrounds/pexels-pixabay-415722.jpg"
 # about image
 image: "images/about/lOYnxlHQ.jpeg"
 # meta description

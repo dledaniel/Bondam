@@ -146,6 +146,11 @@ name = "Vær med"
 weight = 4
 hasChildren = true
 
+  [[Languages.da.menu.main]]
+  parent = "Vær med"
+  name = "Arrangementer"
+  url = "event/"
+
 [[Languages.da.menu.main]]
 name = "Presse"
 url = "contact/"
