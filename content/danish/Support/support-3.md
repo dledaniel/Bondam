@@ -1,7 +1,7 @@
 ---
-title: "Støt på Mobilepay"
-button_link : "https://www.mobilepay.dk/"
-button_label : "Støt nu"
+title: "Bliv en del af kampagnen"
+button_link : "contact/"
+button_label : "Kontakt"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
