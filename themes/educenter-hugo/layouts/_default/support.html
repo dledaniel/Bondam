@@ -4,8 +4,8 @@
     <!-- post meta -->
     <ul class="list-inline mb-3">
     </ul>
-      <h4 class="card-title"><a href="{{ .Params.button_link | safeURL }}" target="blank">{{ .Title }}</a></h4>
+      <h4 class="card-title"><a href="{{ .Params.button_link | safeURL }}">{{ .Title }}</a></h4>
     <p class="card-text">{{ .Summary | truncate 100 }}</p>
-    <a href="{{ .Params.button_link | safeURL }}" target="blank" class="btn btn-primary btn-sm">{{ .Params.button_label }}</a>
+    <a href="{{ .Params.button_link | safeURL }}" class="btn btn-primary btn-sm">{{ .Params.button_label }}</a>
   </div>
 </article>
