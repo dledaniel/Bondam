@@ -60,7 +60,7 @@ top_header = true
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "images/preloader-bondam.png" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
