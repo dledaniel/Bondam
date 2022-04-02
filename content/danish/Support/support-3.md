@@ -8,7 +8,7 @@ draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-image: "images/blog/post-1.jpg"
+image: "images/support/277006313_10159549422071893_8917309340041484146_n.jpg"
 type: "support"
 
 ---

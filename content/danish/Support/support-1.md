@@ -8,7 +8,7 @@ draft: false
 bg_image: "images/support/preview-klistermaerke-med-QR-300x300.png"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-image: "images/support/preview-klistermaerke-med-QR-300x300.png"
+image: "images/support/Preview-MP-logo-and-type-horizontal-blue.png"
 type: "support"
 
 ---
