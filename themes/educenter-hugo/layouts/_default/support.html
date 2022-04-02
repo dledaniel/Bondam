@@ -1,8 +1,8 @@
 <div class="card p-0 border-primary rounded-0 hover-shadow">
   <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
   <div class="card-body">
-    <h4 class="card-title"><a href="{{ .Params.article_url | safeURL }}" target="blank">{{ .Title }}</a></h4>
+    <h4 class="card-title"><a href="{{ .Params.button_link | safeURL }}">{{ .Title }}</a></h4>
     <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
-    <a href="{{ .Params.article_url | safeURL }}" target="blank" class="btn btn-primary btn-sm">{{ i18n "read_more"}}</a>
+    <a href="{{ .Params.button_link | safeURL }}" class="btn btn-primary btn-sm">{{ .Params.button_label }}</a>
   </div>
 </div>
