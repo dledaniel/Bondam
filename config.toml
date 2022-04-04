@@ -59,7 +59,7 @@ top_header = true
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader-bondam.png" # use jpg, png, svg or gif format.
 
 # Subscription
@@ -151,10 +151,15 @@ hasChildren = true
   name = "Arrangementer"
   url = "event/"
 
-[[Languages.da.menu.main]]
-name = "Presse"
-url = "contact/"
-weight = 5
+  [[Languages.da.menu.main]]
+  parent = "Vær med"
+  name = "Støt på Mobilepay"
+  url = "http://mobilepay.dk"
+
+# [[Languages.da.menu.main]]
+# name = "Presse"
+# url = "contact/"
+# weight = 5
   
 [[Languages.da.menu.main]]
 name = "Kontakt"
