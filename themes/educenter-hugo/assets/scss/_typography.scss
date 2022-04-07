@@ -2,8 +2,29 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 
 @font-face {
-  font-family: 'futura-bold';
-  src: url('../fonts/Futura-Bold.woff') format('woff');
+  font-family: 'stratos-bold';
+  src: url('../fonts/Stratos-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'stratos-extrabold';
+  src: url('../fonts/Stratos-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'stratos-extralight';
+  src: url('../fonts/Stratos-ExtraLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'stratos-semilight';
+  src: url('../fonts/Stratos-SemiLight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,7 +45,7 @@ p, .paragraph {
   font-family: $primary-font;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
   color: $text-color-dark;
   font-family: $secondary-font;
   font-weight: 700;
@@ -32,9 +53,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1, .h1{
-  font-size: 60px;
+  font-family: "stratos-extrabold";
+  font-size: 160px;
+  line-height: 1;
   @include mobile {
-    font-size: 45px;
+    font-size: 100px;
   }
 }
 

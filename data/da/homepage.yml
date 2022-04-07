@@ -21,40 +21,40 @@ banner_feature:
 
   feature_item:
     # feature item loop
-    - name : "Mærkesag 1"
+    - name : "MÆRKESAG 1"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
       button:
         enable : true
-        label : "Læs mere"
+        label : "LÆS MERE"
         link : "politics/politic-1"
 
     # feature item loop
-    - name : "Mærkesag 2"
+    - name : "MÆRKESAG 2"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
       button:
         enable : true
-        label : "Læs mere"
+        label : "LÆS MERE"
         link : "politics/politic-2"
 
     # feature item loop
-    - name : "Mærkesag 3"
+    - name : "MÆRKESAG 3"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
       button:
         enable : true
-        label : "Læs mere"
+        label : "LÆS MERE"
         link : "politics/politic-3"
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "Om Klaus Bondam"
+  title : "MØD KLAUS"
   # image : "images/about/about-us.jpg"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
 
@@ -67,24 +67,24 @@ about:
    "
   button:
     enable : true
-    label : "Læs mere"
+    label : "LÆS MERE"
     link : "about/"
 
 
 ############################# Course ################################
 article:
   enable : true
-  title : "Artikler"
+  title : "ARTIKLER"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
 cta:
   enable : true
   subtitle : ""
-  title : "Hjælp mig med at komme i Folketinget"
+  title : "HJÆLP MIG MED AT KOMME I FOLKETINGET!"
   button:
     enable : true
-    label : "Vær med"
+    label : "VÆR MED"
     link : "contact/"
 
 
@@ -92,7 +92,7 @@ cta:
 success_story:
   enable : true
   bg_image : "images/backgrounds/pexels-marija-rusaka-11185751.jpg"
-  title : "Mine visioner"
+  title : "MINE VISIONER"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
             
             
@@ -139,5 +139,5 @@ blog:
 
 support:
   enable : true
-  title : "Støt kampagnen"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaeca cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat"
+  title : "STØT KAMPAGNEN"
+  content : ""

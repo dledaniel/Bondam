@@ -1,3 +1,42 @@
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: $accent-color;
+  color: white;
+}
+
+.twitter {
+  background: $accent-color;
+  color: white;
+}
+
+.linkedin {
+  background: $accent-color;
+  color: white;
+}
+
+
 /* banner feature */
 .feature-icon {
   font-size: 50px;
@@ -6,7 +45,6 @@
 }
 
 .feature-blocks {
-  margin-top: -100px;
   padding-left: 70px;
   padding-top: 80px;
   padding-right: 30%;
@@ -219,7 +257,7 @@
 }
 
 .bg-footer {
-  background-color: #182b45;
+  background-color: #003974;
 }
 
 .logo-footer {

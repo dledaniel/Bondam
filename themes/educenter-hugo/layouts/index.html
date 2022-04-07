@@ -1,20 +1,30 @@
+
 {{ define "main" }}
+<!-- <div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+</div> -->
 
 {{ $data := index site.Data site.Language.Lang }}
 
 <!-- hero slider -->
+
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
-<section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
+<section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}" style="height: 100vh">
   <div class="container">
-    <div class="hero-slider">
+    <div class="hero-slider" >
       <!-- slider item -->
       {{ range .slider_item }}
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
+            <div class="row">
+              <img class="img-fluid w-100"  style="position: absolute; padding: 2em; padding-top: 6rem; padding-left: 1em; z-index: 1; display: block;" src="images/tænk-nyt.png">
             <h1 class="text-white" data-duration-in=".3"
               data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
+              </div>
             <p class="text-muted mb-4" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
             <a href="{{ .button.link | absLangURL }}" class="btn btn-primary" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
