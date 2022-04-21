@@ -10,6 +10,7 @@
 
 <!-- hero slider -->
 
+
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}" style="height: 100vh;">
@@ -39,6 +40,17 @@
 {{ end }}
 {{ end }}
 <!-- /hero slider -->
+
+
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+</div>
 
 <!-- banner-feature -->
 {{ if $data.homepage.banner_feature.enable }}
@@ -107,21 +119,24 @@
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.article.title }}</h2>
+          <!-- <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.article.title }}</h2> -->
+          <h2 class="mb-0 text-nowrap mr-3">FACEBOOK</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `article` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="https://www.facebook.com/BxBondam" target="blanck" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">FØLG</a>
           </div>
         </div>
       </div>
     </div>
     <!-- article list -->
     <div class="row justify-content-center">
-      {{ range first 6 (where site.RegularPages "Type" "article")}}
-      <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "article" }}
-      </div>
-      {{ end }}
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBxBondam%2Fposts%2F134370669170844&show_text=true&width=500" width="500" height="711" style="border:none;overflow:hidden;margin: 2%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBxBondam%2Fposts%2F131352402806004&show_text=true&width=500" width="500" height="699" style="border:none;overflow:hidden;margin: 2%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBxBondam%2Fposts%2F131352402806004&show_text=true&width=500" width="500" height="699" style="border:none;overflow:hidden;margin: 2%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBxBondam%2Fposts%2F130033832937861&show_text=true&width=500" width="500" height="736" style="border:none;overflow:hidden;margin: 2%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBxBondam%2Fposts%2F129602106314367&show_text=true&width=500" width="500" height="195" style="border:none;overflow:hidden;margin: 2%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBxBondam%2Fposts%2F128047256469852&show_text=true&width=500" width="500" height="615" style="border:none;overflow:hidden;margin: 2%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
     </div>
     <!-- /article list -->
     <!-- mobile see all button -->
